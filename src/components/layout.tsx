@@ -1,3 +1,3 @@
-export const Layout: React.FC = (props) => {
+export const Layout = (props): JSX.Element => {
     return <div>{props.children}</div>;
 };
