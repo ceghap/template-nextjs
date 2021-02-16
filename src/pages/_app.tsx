@@ -1,8 +1,10 @@
 import '../styles/globals.css';
-import { Layout } from '@/components/layout';
+
 import type { AppProps /*, AppContext */ } from 'next/app';
 
-function MyApp({ Component, pageProps }: AppProps) {
+import { Layout } from '@/components/layout';
+
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
         <Layout>
             <Component {...pageProps} />
